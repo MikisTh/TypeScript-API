@@ -1,0 +1,6 @@
+├─ 📁 node_modules/
+├─ 📁 src/
+│   └─ 📄 index.ts
+├─ 📄  package.json
+├─ 📄  tsconfig.json
+└─ 📄  yarn.lock
