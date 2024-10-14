@@ -30,6 +30,7 @@ yarn init --yes
 //instalar módulos
 yarn add @types/node typescript
 yarn add -D ts-node
+yarn add -D nodemon
 
 //Express/CORS
 yarn add express
@@ -39,12 +40,14 @@ yarn add cors
 yarn add @types/express
 yarn add @types/cors
 
+yarn dev
 
-/Estrutura
-├─ 📁 node_modules/
-├─ 📁 src/
-│   └─ 📄 index.ts
-├─ 📄  package.json
-├─ 📄  tsconfig.json
-└─ 📄  yarn.lock
+//Testes Endpoints (Postman/Insomnia)
 
+//Controle de versão 
+git init
+git add 
+git commit -m "Inicia projeto de servidor Node com Express e SQLite"
+git remote add origin {url}
+git branch -M main
+git push -u origin main
